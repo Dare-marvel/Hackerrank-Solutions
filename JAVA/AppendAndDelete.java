@@ -1,5 +1,3 @@
-package Hackerrank;
-
 import java.util.*;
 public class AppendAndDelete {
     public static void main(String[] args) {
