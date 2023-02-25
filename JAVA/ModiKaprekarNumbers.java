@@ -1,3 +1,5 @@
+// Link to the problem : https://www.hackerrank.com/challenges/kaprekar-numbers/problem
+
 import java.util.Scanner;
 
 public class ModiKaprekarNumbers {
