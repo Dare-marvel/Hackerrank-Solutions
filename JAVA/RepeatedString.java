@@ -1,3 +1,5 @@
+// Link to the problem : https://www.hackerrank.com/challenges/repeated-string/problem
+
 import java.util.Scanner;
 
 public class RepeatedStrings {
