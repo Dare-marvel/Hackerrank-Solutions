@@ -1,3 +1,5 @@
+// Link to the problem : https://www.hackerrank.com/challenges/jumping-on-the-clouds/problem
+
 import java.util.Scanner;
 
 public class JumpingOnTheClouds{
