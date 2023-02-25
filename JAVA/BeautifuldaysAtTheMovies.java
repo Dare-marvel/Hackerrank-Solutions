@@ -1,3 +1,5 @@
+// Link to the problem : https://www.hackerrank.com/challenges/beautiful-days-at-the-movies/problem
+
 import java.util.Scanner;
 class Reverse{
     int rev(int num){
