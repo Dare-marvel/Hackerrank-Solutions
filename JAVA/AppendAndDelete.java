@@ -1,3 +1,6 @@
+// Link to problem : https://www.hackerrank.com/challenges/append-and-delete/problem
+
+
 import java.util.*;
 public class AppendAndDelete {
     public static void main(String[] args) {
@@ -30,7 +33,6 @@ public class AppendAndDelete {
                 app=t.length()-s.length();
             }
         }
-//        System.out.println("c1:"+del+"c2:"+app);
 //        System.out.println("Final result:");
         if(s.equals(t)){
             if(2*s.length()<=k || k%2==0){
