@@ -1,6 +1,8 @@
+// Link to the problem : https://www.hackerrank.com/challenges/designer-pdf-viewer/problem
+
 import java.util.Scanner;
 
-public class PdfViewer {
+public class DesignerPdfViewer {
     public static void main(String[] args) {
         int [] htarr= new int [26];
         // System.out.println("Enter the heights of letters:");
