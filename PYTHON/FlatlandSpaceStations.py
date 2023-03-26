@@ -1,3 +1,7 @@
+# Key Insight : 
+# calculate the distance between adjacent space stations and 
+# take the maximum of half of that distance and the distance from the first and last stations to their nearest endpoints.
+
 # Link to the problem : hackerrank.com/challenges/flatland-space-stations/problem?isFullScreen=false
 
 # read input values for number of cities and number of space stations
