@@ -1,3 +1,7 @@
+# Key insight:
+# The idea behind this approach is that if we can match the number of balls of each type to the number of balls in each container,
+# then we can organize the balls in a way that satisfies the conditions of the problem.
+
 # Link to the problem : https://www.hackerrank.com/challenges/organizing-containers-of-balls/problem?isFullScreen=false
 
 def OrgContainers(matrix):
