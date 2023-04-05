@@ -7,27 +7,30 @@ public class RepeatedStrings {
         Scanner sc= new Scanner(System.in);
         int c=0;
 
-
-       // System.out.println("Enter the string:");
+        // Prompt user to input string and length of characters to check
         String str=sc.next();
-
-        //System.out.println("Enter the length of characters to check:");
+        
         long n=sc.nextLong();
 
+        // Convert string to character array and count occurrences of "a"
         char [] arr= new char[str.length()];
-         arr=str.toCharArray();
+        arr=str.toCharArray();
         for (char ch:arr) {
             if(ch=='a'){
                 c++;
             }
         }
+
+        // Calculate the total number of occurrences of "a" in the first n characters of the infinitely repeating string
         Long tot=c*(n/arr.length);
         for(int i=0;i<(n% arr.length);i++){
             if(arr[i]=='a'){
                 tot++;
             }
         }
-        //System.out.println("The number of characters in the array is");
+
+        // Print the result
         System.out.println(tot);
     }
 }
+
