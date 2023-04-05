@@ -1,6 +1,9 @@
 // Link : https://www.hackerrank.com/challenges/permutation-equation/problem?h_r=profile
 
 // Code :
+
+// Method - 1
+
 #include <stdio.h>
 
 int main()
@@ -30,3 +33,26 @@ int main()
 
     return 0;
 }
+
+// ---------------------------------------------------------------------------------------------------------------------------------------
+
+// Method - 2
+
+#include <stdio.h>
+
+int main(){
+    int n;
+    scanf("%d", &n);
+    int p[n];
+    // reading the values into the array
+    for(int i=0; i<n; ++i)
+        scanf("%d", &p[i]);
+    // reordering the indices based on the values in the array
+    for(int i=1, j; i<=n; ++i){
+        for(j=0; p[p[j]-1]!=i; ++j);
+        printf("%d\n", j+1);
+    }
+
+    return 0;
+}
+
