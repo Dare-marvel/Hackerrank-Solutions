@@ -4,25 +4,31 @@ import java.util.Scanner;
 
 public class UtopianTree {
     public static void main(String[] args) {
-        int t,n,h;
+        int t,n,h; // Declare variables to store the number of test cases, the number of growth cycles, and the height of the tree
         Scanner sc= new Scanner(System.in);
+        // Get the number of test cases from the user
         //System.out.println("Enter the number of test-cases");
         t=sc.nextInt();
+        // Iterate over the test cases and calculate the height of the tree for each case
         while(t>0){
-            h=1;
-           // System.out.println("Enter the value of n:");
+            h=1; // Initialize the height of the tree to 1
+            // Get the number of growth cycles from the user
+            //System.out.println("Enter the value of n:");
             n=sc.nextInt();
+            // Iterate over the growth cycles and calculate the height of the tree after each cycle
             for (int i=1;i<=n;i++){
-                if(i%2!=0){
+                if(i%2!=0){ // If the cycle number is odd, double the height of the tree
                     h=h*2;
                 }
-                else{
+                else{ // If the cycle number is even, add 1 to the height of the tree
                     h=h+1;
                 }
             }
-           // System.out.println("The height of the tree is:");
+            // Print the final height of the tree
+            //System.out.println("The height of the tree is:");
             System.out.println(h);
-            t--;
+            t--; // Decrement the number of test cases
         }
     }
 }
+
