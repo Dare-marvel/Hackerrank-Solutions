@@ -1,9 +1,11 @@
-# Key insight:
-# The idea behind this approach is that if we can match the number of balls of each type to the number of balls in each container,
-# then we can organize the balls in a way that satisfies the conditions of the problem.
+### [Orgranizing Containers](https://www.hackerrank.com/challenges/organizing-containers-of-balls/problem?isFullScreen=false)
 
-# Link to the problem : https://www.hackerrank.com/challenges/organizing-containers-of-balls/problem?isFullScreen=false
+## Key insight:
+The idea behind this approach is that if we can match the number of balls of each type to the number of balls in each container,<br>
+then we can organize the balls in a way that satisfies the conditions of the problem.<br>
 
+## Code : 
+```python
 def OrgContainers(matrix):
     # total number of balls in that container
     container_sizes=[sum(matrix[i]) for i in range(len(matrix))] 
@@ -32,3 +34,4 @@ for i in range(q):
         l=[int(t) for t in input().split()]
         matrix.append(l)
     OrgContainers(matrix)
+```
