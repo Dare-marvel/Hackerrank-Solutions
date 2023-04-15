@@ -1,5 +1,7 @@
-// Link to the problem : https://www.hackerrank.com/challenges/almost-sorted/problem
+## [Almost Sorted](https://www.hackerrank.com/challenges/almost-sorted/problem)
 
+## Code:
+```c
 #include <stdio.h>
 
 void reverseSubsection(int arr[], int st, int end, int n)
@@ -136,3 +138,4 @@ int main()
 
     return 0;
 }
+```
