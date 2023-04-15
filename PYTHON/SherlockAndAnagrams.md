@@ -28,8 +28,7 @@ anaCount = 0
     
     return anaCount
 ```
-We use the formula <sup>count</sup>C<sub>2</sub> to get all possible combinations of two anagrams and then<br> 
-we divide the product of count and (count-1) by 2 to avoid counting the same pair of substrings twice, since order does not matter.<br>
+We use the formula <sup>count</sup>C<sub>2</sub> to get all possible combinations of two anagrams
 
 ## Code:
 #### Optimized Solution
