@@ -1,7 +1,9 @@
-// Link to the problem : https://www.hackerrank.com/challenges/cut-the-sticks/problem
+## [Cut The Sticks](https://www.hackerrank.com/challenges/cut-the-sticks/problem)
 
-// Method - 1
+## Code :
 
+#### Method - 1
+```c
 #include<stdio.h>
 
 // function to find the minimum element in an array
@@ -56,11 +58,13 @@ int main(){
     return 0;
 
 }
+```
 
-// ---------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------
 
-// Method - 2
+#### Method - 2
 
+```c
 #include <stdio.h>
 
 // function to find the minimum element in an array
@@ -97,3 +101,4 @@ int main() {
 
     return 0;
 }
+```
