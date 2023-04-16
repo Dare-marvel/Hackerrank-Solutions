@@ -1,5 +1,7 @@
-// Link to the problem : https://www.hackerrank.com/challenges/repeated-string/problem
-
+### [Repeated String](https://www.hackerrank.com/challenges/repeated-string/problem)
+                      
+## Code:
+```java
 import java.util.Scanner;
 
 public class RepeatedStrings {
@@ -33,4 +35,4 @@ public class RepeatedStrings {
         System.out.println(tot);
     }
 }
-
+```
