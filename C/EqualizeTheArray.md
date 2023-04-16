@@ -1,5 +1,7 @@
-// Link : https://www.hackerrank.com/challenges/equality-in-a-array/problem?h_r=profile
+### [Equalize The Array](https://www.hackerrank.com/challenges/equality-in-a-array/problem?h_r=profile)
 
+## Code:
+```c
 #include <stdio.h>
 
 int main(){
@@ -29,3 +31,4 @@ int main(){
 
     return 0;
 }
+```
