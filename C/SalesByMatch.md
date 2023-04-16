@@ -1,5 +1,6 @@
-// Link to the problem : https://www.hackerrank.com/challenges/sock-merchant/problem
+### [Sales By Match](https://www.hackerrank.com/challenges/sock-merchant/problem)
 
+```c
 #include <stdio.h>
 
 // Define a function named 'freq' that takes an array of integers 'arr'
@@ -47,3 +48,4 @@ int main()
     // Return 0 to indicate successful completion of the program
     return 0;
 }
+```
