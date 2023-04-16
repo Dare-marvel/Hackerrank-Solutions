@@ -1,3 +1,7 @@
+## [Counting Valleys](https://www.hackerrank.com/challenges/counting-valleys/problem)
+
+## Code:
+```c
 #include<stdio.h>
 #include<string.h>
 #include<stdlib.h>
@@ -6,10 +10,10 @@ int main()
 
 int n,level=0,val=0,alt=0,i;
 
-printf("Enter the value of n\n");
+// Taking input the value of n
 scanf("%d",&n);
 char str[n];
-printf("Enter the string:\n");
+// Taking the string as input
 scanf("%s",str);
 for(i=0;i<n;i++){
     if(str[i]=='U' && (level ==0 || level ==1)){
@@ -47,7 +51,8 @@ for(i=0;i<n;i++){
         }
     }
 }
-printf("Number of valleys:");
+// Printing the number of valleys
 printf("%d",val);
 return 0;
 }
+```
