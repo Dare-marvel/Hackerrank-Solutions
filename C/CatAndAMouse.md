@@ -1,5 +1,7 @@
-// Link to the problem : https://www.hackerrank.com/challenges/cats-and-a-mouse/problem
+### [Cat And A Mouse](https://www.hackerrank.com/challenges/cats-and-a-mouse/problem)
 
+## Code:
+```c
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
@@ -32,3 +34,4 @@ int main()
 
     return 0;
 }
+```
