@@ -1,9 +1,9 @@
-// Link : https://www.hackerrank.com/challenges/permutation-equation/problem?h_r=profile
+### [Sequence Equation](https://www.hackerrank.com/challenges/permutation-equation/problem?h_r=profile)
 
-// Code :
+## Code :
 
-// Method - 1
-
+#### Method - 1
+```c
 #include <stdio.h>
 
 int main()
@@ -33,11 +33,11 @@ int main()
 
     return 0;
 }
+```
+---------------------------------------------------------------------------------------------------------------------------------------
 
-// ---------------------------------------------------------------------------------------------------------------------------------------
-
-// Method - 2
-
+#### Method - 2
+```c
 #include <stdio.h>
 
 int main(){
@@ -55,4 +55,4 @@ int main(){
 
     return 0;
 }
-
+```
