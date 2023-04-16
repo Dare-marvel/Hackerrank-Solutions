@@ -1,6 +1,9 @@
-// Link : https://www.hackerrank.com/challenges/circular-array-rotation/problem?h_r=profile
+### [Circular Array Rotation](https://www.hackerrank.com/challenges/circular-array-rotation/problem?h_r=profile)
 
-// Brute Force : Time Consuming approach ( Giving Time limit exceeded error )
+## Code:
+
+#### Brute Force : Time Consuming approach ( Giving Time limit exceeded error )
+```c
 #include <stdio.h>
 
 int main()
@@ -39,11 +42,11 @@ int main()
 
     return 0;
 }
+```
+---------------------------------------------------------------------------------------------------------------------------------------
 
-
-// ---------------------------------------------------------------------------------------------------------------------------------------
-
-// Optimal Solution : Running all test-cases
+#### Optimal Solution : Running all test-cases
+```c
 #include <stdio.h>
 
 int main()
@@ -80,4 +83,4 @@ int main()
     }
     return 0;
 }
-
+```
