@@ -1,5 +1,7 @@
-// Link to the problem : https://www.hackerrank.com/challenges/breaking-best-and-worst-records/problem
+### [Breaking the Records](https://www.hackerrank.com/challenges/breaking-best-and-worst-records/problem)
 
+## Code:
+```c
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -66,3 +68,4 @@ int main()
     free(sc);
     return 0;
 }
+```
