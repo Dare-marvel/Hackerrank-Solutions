@@ -1,5 +1,7 @@
-// Link to problem : https://www.hackerrank.com/challenges/bon-appetit/problem
+## [Bill Division](https://www.hackerrank.com/challenges/bon-appetit/problem)
 
+## Code:
+```c
 #include <stdio.h>
 
 int main()
@@ -31,3 +33,4 @@ int main()
         printf("%d", bc - ba2);
     return 0;
 }
+```
