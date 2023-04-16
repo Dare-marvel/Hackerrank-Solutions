@@ -1,5 +1,6 @@
 ### [Sales By Match](https://www.hackerrank.com/challenges/sock-merchant/problem)
 
+## Code:
 ```c
 #include <stdio.h>
 
