@@ -1,4 +1,4 @@
-### [Utopian Tree](https://www.hackerrank.com/challenges/utopian-tree/problem#:~:text=The%20Utopian%20Tree%20goes%20through,at%20the%20onset%20of%20spring.)
+### [Utopian Tree](https://www.hackerrank.com/challenges/utopian-tree/problem)
 
 ## Code:
 ```java
