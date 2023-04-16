@@ -1,5 +1,7 @@
-// Link to the problem : https://www.hackerrank.com/challenges/jumping-on-the-clouds-revisited/problem
+### [Jumping on the Clouds Revisited](https://www.hackerrank.com/challenges/jumping-on-the-clouds-revisited/problem)
 
+## Code:
+```c
 #include<stdio.h>
 
 int jump_set(int n,int k){
@@ -49,3 +51,4 @@ while(c<jmp){
 printf("%d\n",e);
 return 0;
 }
+```
