@@ -1,5 +1,7 @@
-# Link to the problem : https://www.hackerrank.com/challenges/extra-long-factorials/problem?isFullScreen=false
+### [Extra Long Factorials](https://www.hackerrank.com/challenges/extra-long-factorials/problem?isFullScreen=false)
 
+## Code:
+```c
 #include <stdio.h>
 
 void ExtraLongFactorials(int n)
@@ -39,3 +41,4 @@ int main()
     ExtraLongFactorials(n);
     return 0;
 }
+```
