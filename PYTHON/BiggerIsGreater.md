@@ -1,4 +1,4 @@
-[Bigger is Greater]()
+### [Bigger is Greater](https://www.hackerrank.com/challenges/bigger-is-greater/problem)
 
 ## Explanation of Code:
 * The first line defines the BiggerIsGreater function. The function takes a string as input and returns a new string that is greater than the input string.
@@ -14,10 +14,11 @@
 
 ## Time and Space complexity:
 ### `Time Complexity`
-The time complexity of the given code is O(n^2), where n is the length of the input string lstr. This is because there are two nested loops in the BiggerIsGreater function. The first loop iterates from len(lstr)-2 to 0, and the second loop iterates from len(lstr)-1 to i. In the worst case scenario, both loops will iterate up to n times, resulting in O(n^2) time complexity.
+The time complexity of the given code is `O(n^2)`, where n is the length of the input string lstr. This is because there are two nested loops in the BiggerIsGreater function. The first loop iterates from len(lstr)-2 to 0, and the second loop iterates from len(lstr)-1 to i. In the worst case scenario, both loops will iterate up to n times, resulting in O(n^2) time complexity.
 
 ### `Space Complexity`
-The space complexity of the code is O(n), where n is the length of the input string lstr. This is because the code creates a list l to store the input strings, and each string can have a maximum length of n. Additionally, the BiggerIsGreater function uses a constant amount of extra space for variables i, j, flag, st, and end. Therefore, the overall space complexity is dominated by the space required to store the input strings, which is O(n).
+The space complexity of the code is `O(n)`, where n is the length of the input string lstr. This is because the code creates a list l to store the input strings, and each string can have a maximum length of n. Additionally, the BiggerIsGreater function uses a constant amount of extra space for variables i, j, flag, st, and end. Therefore, the overall space complexity is dominated by the space required to store the input strings, which is O(n).
+
 ## Code:
 ```py
 def BiggerIsGreater(lstr):
