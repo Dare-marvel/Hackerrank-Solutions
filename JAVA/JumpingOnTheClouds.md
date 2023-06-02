@@ -1,5 +1,7 @@
-// Link to the problem : https://www.hackerrank.com/challenges/jumping-on-the-clouds/problem
+[Jumping on the clouds](https://www.hackerrank.com/challenges/jumping-on-the-clouds/problem)
 
+## Code:
+```java
 import java.util.Scanner;
 
 public class JumpingOnTheClouds{
@@ -25,4 +27,4 @@ public class JumpingOnTheClouds{
         System.out.println(jmp); // output the number of jumps
     }
 }
-
+```
