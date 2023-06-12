@@ -1,4 +1,4 @@
-### [Acessing Inherited Functions](https://www.hackerrank.com/challenges/accessing-inherited-functions/problem?isFullScreen=false)
+### [Accessing Inherited Functions](https://www.hackerrank.com/challenges/accessing-inherited-functions/problem?isFullScreen=false)
 
 ## Explanation:
 Explanation of the update_val() function:
