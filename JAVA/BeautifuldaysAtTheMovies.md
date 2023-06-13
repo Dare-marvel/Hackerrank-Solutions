@@ -1,4 +1,4 @@
-### [Beautiful days at the movies](https://www.hackerrank.com/challenges/beautiful-days-at-the-movies/problem
+### [Beautiful days at the movies](https://www.hackerrank.com/challenges/beautiful-days-at-the-movies/problem)
 
 ##Code:
 ```java
