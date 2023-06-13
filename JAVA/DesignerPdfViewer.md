@@ -1,5 +1,7 @@
-// Link to the problem : https://www.hackerrank.com/challenges/designer-pdf-viewer/problem
+### [Designer Pdf viewer](https://www.hackerrank.com/challenges/designer-pdf-viewer/problem)
 
+## Code:
+```java
 import java.util.Scanner;
 
 public class DesignerPdfViewer {
@@ -25,3 +27,4 @@ public class DesignerPdfViewer {
         System.out.println(max*str.length()); // Print the area as product of maximum height and string length
     }
 }
+```
