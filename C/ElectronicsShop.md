@@ -1,3 +1,7 @@
+### [Electronics Shop](https://www.hackerrank.com/challenges/electronics-shop/problem)
+
+## Code:
+```c
 #include<stdio.h>
 #include<string.h>
 #include<stdlib.h>
@@ -33,7 +37,8 @@ while(i<k){
     }
     i++;
 }
-//printf("Final value of max:");
+
 printf("%d",max);
 return 0;
 }
+```
