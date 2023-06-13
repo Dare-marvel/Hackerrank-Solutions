@@ -19,9 +19,6 @@ I am a triangle
 
 ## Code:
 ```cpp
-Here is the commented version of the code:
-
-```cpp
 #include <cmath>
 #include <cstdio>
 #include <vector>
@@ -62,5 +59,4 @@ int main(){
     isc.triangle();
     return 0;
 }
-```
 ```
