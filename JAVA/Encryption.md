@@ -1,5 +1,7 @@
-// Link to the problem : https://www.hackerrank.com/challenges/encryption/problem
+### [Encryption](https://www.hackerrank.com/challenges/encryption/problem)
 
+## Code:
+```java
 import java.util.*;
 
 public class Encryption {
@@ -44,3 +46,4 @@ public class Encryption {
         }
     }
 }
+```
