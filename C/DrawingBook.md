@@ -1,3 +1,6 @@
+### [Drawing Book](https://www.hackerrank.com/challenges/drawing-book/problem)
+## Code:
+```c
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -14,3 +17,4 @@ int main() {
     printf("%d\n", pages(n, p));
     return 0;
 }
+```
