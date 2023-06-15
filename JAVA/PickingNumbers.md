@@ -1,6 +1,9 @@
-// Link : https://www.hackerrank.com/challenges/picking-numbers/problem?h_r=profile
+### [Picking Numbers](https://www.hackerrank.com/challenges/picking-numbers/problem?h_r=profile)
 
-// Method - 1
+## Code:
+### Method - 1
+<hr>
+```java
 import java.util.Arrays;
 import java.util.Scanner;
 
@@ -38,11 +41,13 @@ public class PickingNumbers {
         System.out.println(maxcount); // Printing the maximum count of consecutive elements
     }
 }
+```
+---------------------------------------------------------------------------------------------------------------------------------------
 
-// ---------------------------------------------------------------------------------------------------------------------------------------
+### Method - 2
 
-// Method - 2
-
+<hr>
+```java
 import java.util.*;
 
 public class PickingNumbers {
@@ -76,3 +81,4 @@ public class PickingNumbers {
         System.out.print(b); // Print the maximum consecutive count
     }
 }
+```
