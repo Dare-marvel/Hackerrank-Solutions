@@ -30,6 +30,7 @@
 |15| <a href="hackerrank.com/challenges/save-the-prisoner/problem" target="_blank">Save The Prisoner</a>  | <a href="C/SaveThePrisoner.md" target="_blank">C</a> |
 |16| <a href="https://www.hackerrank.com/challenges/permutation-equation/problem?h_r=profile" target="_blank">Sequence Equation</a>  | <a href="C/SequenceEquation.md" target="_blank">C</a> |
 |3| <a href="https://www.hackerrank.com/challenges/utopian-tree/problem" target="_blank">Utopian Tree</a>  | <a href="JAVA/UtopianTree.md" target="_blank">Java</a> |
+|3| <a href="https://www.hackerrank.com/challenges/strange-advertising/problem" target="_blank">Viral Advertising</a>  | <a href="JAVA/ViralAdvertising.md" target="_blank">Java</a> |
 |3| <a href="" target="_blank"></a>  | <a href="" target="_blank">Java</a> |
 |3| <a href="" target="_blank"></a>  | <a href="" target="_blank">C</a> |
 |3| <a href="" target="_blank"></a>  | <a href="" target="_blank">C</a> |
