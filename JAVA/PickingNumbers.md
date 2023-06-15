@@ -3,6 +3,7 @@
 ## Code:
 ### Method - 1
 <hr>
+
 ```java
 import java.util.Arrays;
 import java.util.Scanner;
@@ -47,6 +48,7 @@ public class PickingNumbers {
 ### Method - 2
 
 <hr>
+
 ```java
 import java.util.*;
 
