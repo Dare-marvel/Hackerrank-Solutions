@@ -1,5 +1,14 @@
 ### [Modi Kaprekar Numbers](https://www.hackerrank.com/challenges/kaprekar-numbers/problem)
 
+## Explanation:
+
+
+## Time and Space Complexity:
+### `Time Complexity`:
+
+### `Space Complexity`:
+
+
 ## Code:
 ```java
 import java.util.Scanner;
