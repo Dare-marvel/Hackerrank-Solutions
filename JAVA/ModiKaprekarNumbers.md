@@ -1,13 +1,19 @@
 ### [Modi Kaprekar Numbers](https://www.hackerrank.com/challenges/kaprekar-numbers/problem)
 
 ## Explanation:
+This code is a Java program that finds and prints all the Modified Kaprekar Numbers in a given range. Here's how it works:
 
+1. The program takes two long integers `p` and `q` as input from the user, representing the lower and upper bounds of the range respectively.
+2. It then creates an object of the `ModiKaprekarNumbers` class and calls its `KapCheck()` method for each number in the range [p, q] to check if it is a Modified Kaprekar Number.
+3. The `KapCheck()` method takes a long integer `n` as input and checks if it satisfies the Kaprekar condition using a formula. If it does, the method prints the number and returns true.
+4. If no Modified Kaprekar Number is found in the given range, the program prints an error message.
 
 ## Time and Space Complexity:
 ### `Time Complexity`:
+The time complexity of this code is O((q-p+1)*d) where d is the maximum number of digits in any number in the range [p, q] because it iterates over each number in the range and checks if it satisfies the Kaprekar condition using a formula that involves converting the number to a string and calculating its length.
 
 ### `Space Complexity`:
-
+The space complexity is O(d) because it uses a string of size d to store intermediate results.
 
 ## Code:
 ```java
