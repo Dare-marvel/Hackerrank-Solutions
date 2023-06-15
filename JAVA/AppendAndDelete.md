@@ -1,5 +1,20 @@
 ### [Append and Delete](https://www.hackerrank.com/challenges/append-and-delete/problem)
 
+## Explanation:
+This code is a Java program that determines whether it is possible to convert one string into another by performing a given number of append and delete operations. Here's how it works:
+
+1. The program takes two strings `s` and `t` as input from the user, representing the initial and final strings respectively.
+2. It then takes an integer `k` as input from the user, representing the number of operations that can be performed.
+3. The program compares the characters of `s` and `t` until a mismatch is found and calculates the number of characters to be deleted from `s` and appended to `s` to reach `t`.
+4. It then checks if it is possible to reach `t` from `s` in `k` steps using a series of if-else statements and prints the result.
+
+## Time and Space Complexity:
+### `Time Complexity:`
+The time complexity of this code is O(min(s.length(), t.length())) because it iterates over each character in the shorter of the two input strings once to find the first mismatch.
+
+### `Space Complexity:`
+The space complexity is O(1) because it uses only a few variables to store intermediate results.
+
 ## Code:
 ```java
 import java.util.*;
