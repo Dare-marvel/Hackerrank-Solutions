@@ -64,13 +64,23 @@ public class PickingNumbers {
 
 ### Method - 2
 ## Explanation:
+This code is another Java program that calculates the maximum number of integers that can be chosen from an array such that the absolute difference between any two of the chosen integers is less than or equal to 1. Here's how it works:
 
+1. The program takes an integer `n` as input from the user, representing the number of elements in the array.
+2. It then creates an array `arr` of size `n` and takes `n` integers as input from the user to populate the array.
+3. The program sorts the array in ascending order for easier comparison.
+4. It then iterates over each element in the sorted array using a nested for loop and counts the number of consecutive elements that satisfy the condition that their absolute difference is less than or equal to 1.
+5. The program keeps track of the maximum count of such consecutive elements and updates it whenever a larger count is found.
+6. Finally, it prints the maximum count.
+
+Is there anything else you would like to know?
 
 ## Time and Space Complexity:
 ### `Time Complexity`:
+The time complexity of this code is O(n^2) because it uses a nested for loop to iterate over each pair of elements in the input array.
 
 ### `Space Complexity`:
-
+The space complexity is O(n) because it uses an array of size n to store intermediate results.
 
 <hr>
 
