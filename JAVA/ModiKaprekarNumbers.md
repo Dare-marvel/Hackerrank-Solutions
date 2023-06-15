@@ -1,5 +1,7 @@
-// Link to the problem : https://www.hackerrank.com/challenges/kaprekar-numbers/problem
+### [Modi Kaprekar Numbers](https://www.hackerrank.com/challenges/kaprekar-numbers/problem)
 
+## Code:
+```java
 import java.util.Scanner;
 
 public class ModiKaprekarNumbers {
@@ -37,4 +39,4 @@ public class ModiKaprekarNumbers {
         }
     }
 }
-
+```
