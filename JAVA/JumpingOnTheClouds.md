@@ -13,6 +13,13 @@
 * Continue looping until reaching the last cloud.
 * Print the number of jumps.
 
+## Time and Space Complexity:
+### `Time Complexity`:
+The time complexity of this code is O(n) because it iterates over each cloud in the input array once to calculate the result.
+
+### `Space Complexity`:
+The space complexity is O(n) because it uses an array of size n+1 to store intermediate results.
+
 ## Code:
 ```java
 import java.util.Scanner;
