@@ -1,5 +1,13 @@
 ### [Find Digits](https://www.hackerrank.com/challenges/find-digits/problem)
 
+## Explanation:
+
+
+## Time and Space Complexity:
+### `Time Complexity`:
+
+### `Space Complexity`:
+
 ## Code:
 ```java
 import java.util.*;
