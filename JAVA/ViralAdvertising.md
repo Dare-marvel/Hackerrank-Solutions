@@ -17,7 +17,7 @@ The time complexity of this code is O(n) because it iterates over `n` days to ca
  The space complexity is also O(n) because it uses two arrays of size `n+1` to store intermediate results.
  
 ## Code:
-Method 1:
+### Method 1:
 <hr>
 
 ```java
