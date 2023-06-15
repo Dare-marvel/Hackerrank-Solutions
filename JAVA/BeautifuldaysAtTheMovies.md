@@ -1,5 +1,22 @@
 ### [Beautiful days at the movies](https://www.hackerrank.com/challenges/beautiful-days-at-the-movies/problem)
 
+## Explanation:
+This code is a Java program that calculates the number of beautiful days in a given range of days. Here's how it works:
+
+1. The program takes two integers `n1` and `n2` as input from the user, representing the starting and ending days of the range respectively.
+2. It then takes a float `k` as input from the user, representing the divisor.
+3. The program creates an object of the `Reverse` class and calls its `rev()` method to reverse each day in the range [n1, n2].
+4. It then calculates the absolute difference between each day and its reverse and divides it by `k`. If the quotient is an integer, the program increments a counter.
+5. Finally, it prints the count of beautiful days in the given range.
+
+Is there anything else you would like to know?
+## Time and Space Complexity:
+### `Time Complexity:`
+The time complexity of this code is O((n2-n1+1)*d) where d is the maximum number of digits in any day in the range [n1, n2] because it iterates over each day in the range and reverses each day using a while loop that extracts each digit from the day.
+
+### `Space Complexity:`
+The space complexity is O(1) because it uses only a few variables to store intermediate results.
+
 ## Code:
 ```java
 import java.util.Scanner;
