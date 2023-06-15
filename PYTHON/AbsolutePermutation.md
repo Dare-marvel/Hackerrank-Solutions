@@ -1,18 +1,18 @@
 ### [Absolute Permutation](https://www.hackerrank.com/challenges/absolute-permutation/problem)
 
 ## Explanation:
-The absolutePermutation function takes two integers n and k as input and returns a list of n integers representing the absolute permutation<br>
+- The absolutePermutation function takes two integers n and k as input and returns a list of n integers representing the absolute permutation<br>
 of the numbers from 1 to n, if possible. An absolute permutation is defined as a permutation of the numbers from 1 to n<br> 
 where each number i in the permutation is at a distance of k from i in the original list. If there is no absolute permutation possible,<br> 
 it returns [-1].<br>
-The function first creates a list of numbers from 1 to n+1 using the list and range functions.<br>
-If k is 0, the original list is already an absolute permutation, so the function returns the list without modification.<br>
-If n is odd, there can be no absolute permutation, so the function returns [-1].<br>
-The function then loops through the list from index 1 to n-k and swaps the numbers at indices i and i+k if their difference is k.<br> 
-If the difference between i and numList[i] is not equal to k, there can be no absolute permutation, so the function returns [-1].<br>
-The function then loops through the list from index n-k+1 to n and checks if the difference between i and numList[i] is not equal to k.<br> 
-If it is not, there can be no absolute permutation, so the function returns [-1].<br>
-If an absolute permutation is possible, the function returns the list of numbers from 1 to n in the new order.<br>
+- The function first creates a list of numbers from 1 to n+1 using the list and range functions.<br>
+- If k is 0, the original list is already an absolute permutation, so the function returns the list without modification.<br>
+- If n is odd, there can be no absolute permutation, so the function returns [-1].<br>
+- The function then loops through the list from index 1 to n-k and swaps the numbers at indices i and i+k if their difference is k.<br> 
+- If the difference between i and numList[i] is not equal to k, there can be no absolute permutation, so the function returns [-1].<br>
+- The function then loops through the list from index n-k+1 to n and checks if the difference between i and numList[i] is not equal to k.<br> 
+- If it is not, there can be no absolute permutation, so the function returns [-1].<br>
+- If an absolute permutation is possible, the function returns the list of numbers from 1 to n in the new order.<br>
 The main part of the code takes input from the user, calls the absolutePermutation function for each test case,<br> 
 and prints the result using the print function.<br>
 
