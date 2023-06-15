@@ -1,6 +1,25 @@
 ### [Viral Advertising](https://www.hackerrank.com/challenges/strange-advertising/problem)
 
+## Explanation:
+This code is a Java program that calculates the cumulative number of likes for a viral advertising campaign over a given number of days. Here's how it works:
+
+1. The program takes an integer `n` as input from the user, representing the number of days for which the campaign runs.
+2. It creates two arrays `c` and `l` of size `n+1` to store the cumulative number of likes and the number of likes on each day respectively.
+3. The program initializes the first element of both arrays to 2, representing the number of people who liked the advertisement on the first day.
+4. It then iterates over the remaining days and calculates the number of likes and cumulative likes for each day using a formula.
+5. Finally, it prints the cumulative number of likes on the last day.
+
+## Time and Space Complexity:
+### `Time Complexity`:
+The time complexity of this code is O(n) because it iterates over `n` days to calculate the result.
+
+### `Space Complexity`:
+ The space complexity is also O(n) because it uses two arrays of size `n+1` to store intermediate results.
+ 
 ## Code:
+Method 1:
+<hr>
+
 ```java
 import java.util.Scanner;
 
@@ -29,6 +48,20 @@ public class ViralAdvertising {
 -----------------------------------------------------------------------------------------------------------------------------------------
 
 ### Method - 2
+
+## Explanation:
+This code is another Java program that calculates the cumulative number of likes for a viral advertising campaign over a given number of days. Here's how it works:
+
+1. The program takes an integer `n` as input from the user, representing the number of days for which the campaign runs.
+2. It initializes two variables `like` and `cum` to 2, representing the number of people who liked the advertisement on the first day and the cumulative number of likes respectively.
+3. The program then iterates over the remaining days using a for loop and calculates the number of likes and cumulative likes for each day using a formula.
+4. Finally, it prints the cumulative number of likes.
+
+## Time and Space Complexity:
+### `Time Complexity`:
+The time complexity of this code is O(n) because it iterates over `n` days to calculate the result.
+### `Space Complexity`:
+The space complexity is O(1) because it uses only two variables to store intermediate results.
 
 <hr>
 
