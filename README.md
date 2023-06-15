@@ -20,7 +20,10 @@
 |3| <a href="https://www.hackerrank.com/challenges/encryption/problem" target="_blank">Encryption</a>  | <a href="JAVA/Encryption.md" target="_blank">Java</a> |
 |11| <a href="https://www.hackerrank.com/challenges/equality-in-a-array/problem?h_r=profile" target="_blank">Equalize The Array</a>  | <a href="C/EqualizeTheArray.md" target="_blank">C</a> |
 |12| <a href="https://www.hackerrank.com/challenges/extra-long-factorials/problem?isFullScreen=false" target="_blank">Extra Long Factorials</a>  | <a href="C/ExtraLongFactorials.md" target="_blank">C</a> |
+|3| <a href="https://www.hackerrank.com/challenges/find-digits/problem" target="_blank">Find Digits</a>  | <a href="JAVA/FindDigits.md" target="_blank">Java</a> |
+|3| <a href="https://www.hackerrank.com/challenges/jumping-on-the-clouds/problem" target="_blank">Jumping on the clouds</a>  | <a href="JAVA/JumpingOnTheClouds.md" target="_blank">Java</a> |
 |13| <a href="https://www.hackerrank.com/challenges/jumping-on-the-clouds-revisited/problem" target="_blank">Jumping on the Clouds Revisited</a>  | <a href="C/JumpingOnTheCloudsRevisited.md" target="_blank">C</a> |
+|3| <a href="https://www.hackerrank.com/challenges/kaprekar-numbers/problem" target="_blank">Modi Kaprekar Numbers</a>  | <a href="JAVA/ModiKaprekarNumbers.md" target="_blank">Java</a> |
 |14| <a href="https://www.hackerrank.com/challenges/sock-merchant/problem" target="_blank">Sales By Match</a>  | <a href="C/SalesByMatch.md" target="_blank">C</a> |
 |15| <a href="hackerrank.com/challenges/save-the-prisoner/problem" target="_blank">Save The Prisoner</a>  | <a href="C/SaveThePrisoner.md" target="_blank">C</a> |
 |16| <a href="https://www.hackerrank.com/challenges/permutation-equation/problem?h_r=profile" target="_blank">Sequence Equation</a>  | <a href="C/SequenceEquation.md" target="_blank">C</a> |
