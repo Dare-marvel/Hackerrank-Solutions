@@ -30,6 +30,13 @@ anaCount = 0
 ```
 We use the formula <sup>count</sup>C<sub>2</sub> to get all possible combinations
 
+## Time and Space Compexity:
+### `Time Complexity`:
+The time complexity of this code is O(qn^3log(n)) because it iterates over q test cases and calls the sherlockAndAnagrams() function for each test case, which has a time complexity of O(n^3log(n)) because it uses nested for loops to iterate over each possible substring of the input string and sorts each substring using the sorted() function, which has a time complexity of O(nlog(n)). 
+
+### `Space Complexity`:
+The space complexity is O(n^2) because it uses a dictionary to store up to n^2 substrings.
+
 ## Code:
 #### Optimized Solution
 ```python
