@@ -1,5 +1,21 @@
 ### [Utopian Tree](https://www.hackerrank.com/challenges/utopian-tree/problem)
 
+## Explanation:
+This code is a Java program that calculates the height of a Utopian tree after a given number of growth cycles for multiple test cases. Here's how it works:
+
+1. The program takes an integer `t` as input from the user, representing the number of test cases.
+2. It then enters a while loop that iterates over each test case.
+3. For each test case, the program initializes the height of the tree `h` to 1 and takes an integer `n` as input from the user, representing the number of growth cycles for that test case.
+4. It then enters a for loop that iterates over each growth cycle and calculates the height of the tree after each cycle using a formula.
+5. Finally, it prints the height of the tree after all growth cycles and decrements the number of test cases.
+
+## Time and Space Complexity:
+### `Time Complexity`:
+The time complexity of this code is O(t*n) because it iterates over `t` test cases and `n` growth cycles for each test case to calculate the result. 
+
+### `Space Complexity`:
+The space complexity is O(1) because it uses only three variables to store intermediate results.
+
 ## Code:
 ```java
 import java.util.Scanner;
