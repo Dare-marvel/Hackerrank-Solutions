@@ -17,10 +17,10 @@ We don't run the loop till the end of the number of rows and columns because onc
 
 
 ## Time and Space Complexity:
-`Time Complexity`
+### `Time Complexity`
 The time complexity of the function gridSearch is O((R-r+1)(C-c+1)rc), where R is the number of rows in the grid, C is the number of columns in the grid, r is the number of rows in the search pattern, and c is the number of columns in the search pattern. This is because the function iterates over every possible starting position of the search pattern in the grid, which is (R-r+1) * (C-c+1), and for each starting position, it checks every cell in the search pattern, which is r*c.<br>
 
-`Space Complexity`
+### `Space Complexity`
 The space complexity of the function is O(1), because it only uses a constant amount of additional memory regardless of the size of the<br> input grid and search pattern.<br>
 
 ## Code:
