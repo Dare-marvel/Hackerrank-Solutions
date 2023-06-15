@@ -1,5 +1,7 @@
-// Link to the problem : https://www.hackerrank.com/challenges/strange-advertising/problem
+### [Viral Advertising](https://www.hackerrank.com/challenges/strange-advertising/problem)
 
+## Code:
+```java
 import java.util.Scanner;
 
 public class ViralAdvertising {
@@ -22,11 +24,13 @@ public class ViralAdvertising {
         System.out.println(c[n]);
     }
 }
+```
 
+-----------------------------------------------------------------------------------------------------------------------------------------
 
-// -----------------------------------------------------------------------------------------------------------------------------------------
-
-// Method - 2
+### Method - 2
+<hr>
+```java
 import java.util.Scanner;
 
 public class ViralAdvertising {
@@ -49,3 +53,4 @@ public class ViralAdvertising {
         System.out.println(cum);
     }
 }
+```
