@@ -24,9 +24,12 @@
 |3| <a href="https://www.hackerrank.com/challenges/jumping-on-the-clouds/problem" target="_blank">Jumping on the clouds</a>  | <a href="JAVA/JumpingOnTheClouds.md" target="_blank">Java</a> |
 |13| <a href="https://www.hackerrank.com/challenges/jumping-on-the-clouds-revisited/problem" target="_blank">Jumping on the Clouds Revisited</a>  | <a href="C/JumpingOnTheCloudsRevisited.md" target="_blank">C</a> |
 |3| <a href="https://www.hackerrank.com/challenges/kaprekar-numbers/problem" target="_blank">Modi Kaprekar Numbers</a>  | <a href="JAVA/ModiKaprekarNumbers.md" target="_blank">Java</a> |
+|3| <a href="https://www.hackerrank.com/challenges/picking-numbers/problem?h_r=profile" target="_blank">Picking Numbers</a>  | <a href="JAVA/PickingNumbers.md" target="_blank">Java</a> |
+|3| <a href="https://www.hackerrank.com/challenges/repeated-string/problem" target="_blank">Repeated String</a>  | <a href="JAVA/RepeatedString.md" target="_blank">Java</a> |
 |14| <a href="https://www.hackerrank.com/challenges/sock-merchant/problem" target="_blank">Sales By Match</a>  | <a href="C/SalesByMatch.md" target="_blank">C</a> |
 |15| <a href="hackerrank.com/challenges/save-the-prisoner/problem" target="_blank">Save The Prisoner</a>  | <a href="C/SaveThePrisoner.md" target="_blank">C</a> |
 |16| <a href="https://www.hackerrank.com/challenges/permutation-equation/problem?h_r=profile" target="_blank">Sequence Equation</a>  | <a href="C/SequenceEquation.md" target="_blank">C</a> |
+|3| <a href="https://www.hackerrank.com/challenges/utopian-tree/problem" target="_blank">Utopian Tree</a>  | <a href="JAVA/UtopianTree.md" target="_blank">Java</a> |
 |3| <a href="" target="_blank"></a>  | <a href="" target="_blank">Java</a> |
 |3| <a href="" target="_blank"></a>  | <a href="" target="_blank">C</a> |
 |3| <a href="" target="_blank"></a>  | <a href="" target="_blank">C</a> |
