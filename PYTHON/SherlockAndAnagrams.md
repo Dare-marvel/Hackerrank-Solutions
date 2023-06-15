@@ -73,6 +73,12 @@ for i in range(queries):
     print(sherlockAndAnagrams(newStr))
 ```
 ---------------------------------------------------------------------------------------------------------------------------------------------
+## Time and Space Compexity:
+### `Time Complexity`:
+The time complexity of this code is O(q*n^6) because it iterates over `q` test cases and calls the `sherlockAndAnagrams()` function for each test case, which has a time complexity of O(n^6) because it calls the `findAllSubstr()` function, which has a time complexity of O(n^2) because it uses nested for loops to iterate over each possible substring of the input string, and the `countAnagram()` function, which has a time complexity of O(n^3) because it iterates over each substring in the input list and calls the `AnagCheck()` function for each substring, which has a time complexity of O(n*log(n)) because it sorts each substring using the `sorted()` function. 
+
+### `Space Complexity`:
+The space complexity is O(n^2) because it uses a list to store up to n^2 substrings.
 
 #### Brute force solution ( Time limit exceeded )
 ```python
