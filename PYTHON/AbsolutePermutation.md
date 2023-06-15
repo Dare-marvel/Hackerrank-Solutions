@@ -1,14 +1,22 @@
 ### [Absolute Permutation](https://www.hackerrank.com/challenges/absolute-permutation/problem)
 
 ## Explanation:
-This code is a Python program that calculates the absolute permutation of a given list of numbers for multiple test cases. Here's how it works:
+The absolutePermutation function takes two integers n and k as input and returns a list of n integers representing the absolute permutation<br>
+of the numbers from 1 to n, if possible. An absolute permutation is defined as a permutation of the numbers from 1 to n<br> 
+where each number i in the permutation is at a distance of k from i in the original list. If there is no absolute permutation possible,<br> 
+it returns [-1].<br>
+The function first creates a list of numbers from 1 to n+1 using the list and range functions.<br>
+If k is 0, the original list is already an absolute permutation, so the function returns the list without modification.<br>
+If n is odd, there can be no absolute permutation, so the function returns [-1].<br>
+The function then loops through the list from index 1 to n-k and swaps the numbers at indices i and i+k if their difference is k.<br> 
+If the difference between i and numList[i] is not equal to k, there can be no absolute permutation, so the function returns [-1].<br>
+The function then loops through the list from index n-k+1 to n and checks if the difference between i and numList[i] is not equal to k.<br> 
+If it is not, there can be no absolute permutation, so the function returns [-1].<br>
+If an absolute permutation is possible, the function returns the list of numbers from 1 to n in the new order.<br>
+The main part of the code takes input from the user, calls the absolutePermutation function for each test case,<br> 
+and prints the result using the print function.<br>
 
-1. The program defines a function `absolutePermutation()` that takes two integers `n` and `k` as input and returns a list of `n` integers representing the absolute permutation of the numbers from 1 to `n`, if possible.
-2. The function creates a list `numList` of numbers from 1 to `n+1` and checks if an absolute permutation is possible using a series of if-else statements and for loops. If it is, the function returns the list of numbers in the new order. Otherwise, it returns [-1].
-3. The program takes an integer `t` as input from the user, representing the number of test cases.
-4. It then enters a for loop that iterates over each test case and calls the `absolutePermutation()` function to calculate the result. The program prints the result for each test case.
 
-Is there anything else you would like to know?
 ## Time and Space Complexity:
 ### `Time Complexity:`
 The time complexity of this code is O(t*n) because it iterates over `t` test cases and calls the `absolutePermutation()` function for each test case, which has a time complexity of O(n) because it iterates over each number in the input list once to calculate the result.
