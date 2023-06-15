@@ -1,5 +1,7 @@
-// Link to the problem : https://www.hackerrank.com/challenges/find-digits/problem
+### [Find Digits](https://www.hackerrank.com/challenges/find-digits/problem)
 
+## Code:
+```java
 import java.util.*;
 
 public class FindDigits {
@@ -30,4 +32,4 @@ public class FindDigits {
         }
     }
 }
-
+```
