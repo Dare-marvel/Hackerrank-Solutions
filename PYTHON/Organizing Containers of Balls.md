@@ -1,4 +1,4 @@
-### [Orgranizing Containers](https://www.hackerrank.com/challenges/organizing-containers-of-balls/problem?isFullScreen=false)
+### [Orgranizing Containers of Balls](https://www.hackerrank.com/challenges/organizing-containers-of-balls/problem?isFullScreen=false)
 
 ## Key insight:
 The idea behind this approach is that if we can match the number of balls of each type to the number of balls in each container,<br>
