@@ -1,5 +1,23 @@
-// Link : https://www.hackerrank.com/challenges/climbing-the-leaderboard/problem?h_r=profile
+### [Climbing the Leaderboard](https://www.hackerrank.com/challenges/climbing-the-leaderboard/problem?h_r=profile)
 
+## Explanation:
+This code is a solution to a problem where a player's rank is determined based on their scores and the scores of other players. Here's the main logic of the code in points:
+1. The code takes in two arrays as input: `ranked` and `player`. The `ranked` array contains the scores of other players, while the `player` array contains the scores of the player whose rank is to be determined.
+2. The code removes any duplicate scores from the `ranked` array and stores the unique scores in a new array called `franked`.
+3. For each score in the `player` array, the code checks if it is greater than the highest score or less than the lowest score in the `franked` array. If it is greater, the player's rank is 1. If it is less, the player's rank is equal to the length of the `franked` array + 1.
+4. If the player's score falls within the range of scores in the `franked` array, a binary search is performed on the `franked` array to determine the player's rank.
+
+
+## Time and Space Compexity:
+### `Time Complexity`:
+The time complexity of this code is O(pn log(rn)), where pn is the number of elements in the `player` array and rn is the number of elements in the `ranked` array. This is because for each element in the `player` array, a binary search is performed on the `ranked` array which takes O(log(rn)) time.
+
+### `Space Complexity`:
+The space complexity of this code is O(rn), where rn is the number of elements in the `ranked` array. This is because a new array called `franked` is created which can have at most rn elements.
+
+
+## Code:
+```cpp
 #include<bits/stdc++.h>
 using namespace std;
 
@@ -74,6 +92,6 @@ int main()
             cout << ans+1 << endl; // Print the rank of the player
         }
     }
-
+```
     return 0;
 }
