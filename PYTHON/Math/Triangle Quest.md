@@ -4,10 +4,10 @@
 Basically we need to multiply each number say `n` by `1111....n` , so for that we use the formula : ( 10<sup>n</sup> - 1 ) / 9 , so that we get the desired result
 
 ## Time and Space Complexity:
-`Time Complexity`:
+### `Time Complexity`:
 The time complexity of this code is O(n) because the loop runs n times.
 
-`Space Complexity`:
+### `Space Complexity`:
 The space complexity is O(1) because the memory usage does not depend on the size of the input.
 
 ## Code:
