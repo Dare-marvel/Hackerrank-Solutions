@@ -1,4 +1,4 @@
-## [Apple And Orange](https://www.hackerrank.com/challenges/apple-and-orange/problem?isFullScreen=false)
+## [Apple and Orange](https://www.hackerrank.com/challenges/apple-and-orange/problem?isFullScreen=false)
 
 ## Code:
 #### Method 1 - Using Arrays for storing values
