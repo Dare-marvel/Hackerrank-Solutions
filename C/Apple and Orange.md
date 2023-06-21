@@ -57,7 +57,17 @@ int main()
 
 ```
 
-#### Method 2 - Using less variables
+## Method 2 - Using less variables
+<hr>
+
+## Explanation:
+
+## Time and Space Complexity:
+### `Time Complexity`:
+
+### `Space Complexity`:
+
+## Code:
 ```c
 #include <stdio.h>
 
