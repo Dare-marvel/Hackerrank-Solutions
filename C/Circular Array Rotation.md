@@ -5,12 +5,21 @@
 <hr>
 
 ## Explanation
+The main logic of the code can be summarized in the following points:
+1. The code reads three integers `n`, `k`, and `qn` representing the number of elements in the array, the number of times the array is rotated to the right, and the number of queries respectively.
+2. The code then reads `n` integers representing the elements of the array and stores them in an integer array `num`.
+3. The code then reads `qn` integers representing the queries and stores them in an integer array `q`.
+4. For each query `q[i]`, the code calculates the index of the element that will be at position `q[i]` after rotating the array `k` times to the right.
+5. This is done by subtracting `k % n` from `q[i]`. If this value is non-negative, it is used as the index to access the element in the `num` array. Otherwise, `n` is added to this value to account for wrap-around.
+6. The element at this calculated index is then printed to the standard output.
+
 
 ## Time and Space Complexity:
 ### `Time Complexity`:
+The time complexity of this code is O(n + qn), where n is the number of elements in the array and qn is the number of queries. This is because for each element in the array and for each query, the code performs a constant number of operations (reading input and calculating/printing results).
 
 ### `Space Complexity`:
-
+The space complexity of this code is O(n + qn), because it uses two arrays (`num` and `q`) with sizes proportional to n and qn respectively.
 
 ## Code:
 ```c
