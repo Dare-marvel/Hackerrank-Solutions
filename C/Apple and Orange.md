@@ -1,17 +1,23 @@
 ## [Apple and Orange](https://www.hackerrank.com/challenges/apple-and-orange/problem?isFullScreen=false)
 
-## Brief Description:
+## Method 1 - Using Arrays for storing values
+<hr>
 
-## Key Insights:
+## Explanation:
+The main logic of this code can be explained in the following points:
+1. The program reads in several integer values representing the positions of two trees, a house, and the number of apples and oranges that fall from each tree.
+2. The program then reads in the distances of each apple and orange from their respective trees.
+3. The program calculates the number of apples and oranges that fall within the range of the house by checking if the position of each apple and orange is within the range of the house.
+4. The program outputs the number of apples and oranges that fall within the range of the house.
 
 ## Time and Space Complexity:
 ### `Time Complexity`:
+The time complexity of this code is O(m+n) where m is the number of apples and n is the number of oranges. This is because the program iterates through each apple and orange once to check if they fall within the range of the house.
 
 ### `Space Complexity`:
-
+The space complexity of this code is O(m+n) where m is the number of apples and n is the number of oranges. This is because the program stores an array for each apple and orange to represent their distances from their respective trees.
 
 ## Code:
-#### Method 1 - Using Arrays for storing values
 ```c
 #include <stdio.h>
 
