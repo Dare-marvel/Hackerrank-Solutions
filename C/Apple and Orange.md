@@ -61,11 +61,28 @@ int main()
 <hr>
 
 ## Explanation:
+The main logic of this C program can be summarized in the following points:
+1. The program takes in several integer inputs representing the values of `s`, `t`, `a`, `b`, `m`, and `n`.
+2. The program initializes two variables `c1` and `c2` to `0`.
+3. The program uses a for loop to iterate from `0` to `m`.
+4. For each iteration, the program reads in an integer input representing the value of a temporary variable `tmp`.
+5. The program adds the value of `a` to `tmp`.
+6. The program checks if the value of `tmp` is greater than or equal to `s` and less than or equal to `t`.
+7. If it is, the program increments the value of `c1`.
+8. After all iterations have been completed, the program uses another for loop to iterate from `0` to `n`.
+9. For each iteration, the program reads in an integer input representing the value of a temporary variable `tmp`.
+10. The program adds the value of `b` to `tmp`.
+11. The program checks if the value of `tmp` is greater than or equal to `s` and less than or equal to `t`.
+12. If it is, the program increments the value of `c2`.
+13. After all iterations have been completed, the program outputs the values of `c1` and `c2`.
+
 
 ## Time and Space Complexity:
 ### `Time Complexity`:
+The time complexity of this code is O(m + n) because it uses two for loops that each iterate over `m` and `n` elements, respectively.
 
 ### `Space Complexity`:
+The space complexity is O(1) because the program uses a constant amount of memory to store its variables.
 
 ## Code:
 ```c
