@@ -13,6 +13,8 @@
 
 ## Problem Solving:
 
+## Links not working , work in progress
+
 |Sr. no.|Problem | Solution|
 |---| ------------- | ------------- |
 |1| <a href="https://www.hackerrank.com/challenges/almost-sorted/problem" target="_blank">Almost Sorted</a>  | <a href="C/AlmostSorted.md" target="_blank">C</a> |
