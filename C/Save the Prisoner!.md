@@ -1,4 +1,4 @@
-## [Save The Prisoner](https://www.hackerrank.com/challenges/save-the-prisoner/problem)
+## [Save the Prisoner!](https://www.hackerrank.com/challenges/save-the-prisoner/problem)
 
 ## Key Insights : 
 s + st - 2: This calculates the index of the last candy if we start counting from the starting prisoner st.<br>
