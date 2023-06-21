@@ -1,5 +1,15 @@
 ## [Apple and Orange](https://www.hackerrank.com/challenges/apple-and-orange/problem?isFullScreen=false)
 
+## Brief Description:
+
+## Key Insights:
+
+## Time and Space Complexity:
+### `Time Complexity`:
+
+### `Space Complexity`:
+
+
 ## Code:
 #### Method 1 - Using Arrays for storing values
 ```c
@@ -8,19 +18,19 @@
 int main()
 {
     int s, a, b, m, n, t;
-   
+    // s and t represent the start and end points of the house
     scanf("%d %d", &s, &t);
-   
+    // a and b represent the positions of the apple and orange trees
     scanf("%d %d", &a, &b);
-   
+    // m and n represent the number of apples and oranges that fall from each tree
     scanf("%d %d", &m, &n);
     int app[m], ora[n], as = 0, os = 0;
-    
+    // app[] and ora[] represent the distances of each apple and orange from their respective trees
     for (int i = 0; i < m; i++)
         scanf("%d", &app[i]);
-   
     for (int j = 0; j < n; j++)
         scanf("%d", &ora[j]);
+    // as and os represent the number of apples and oranges that fall within the range of the house
     for (int k = 0; k < m; k++)
     {
         if (app[k] + a >= s && app[k] + a <= t)
@@ -38,6 +48,7 @@ int main()
     printf("%d\n%d", as, os);
     return 0;
 }
+
 ```
 
 #### Method 2 - Using less variables
