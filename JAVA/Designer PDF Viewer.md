@@ -1,4 +1,4 @@
-### [Designer Pdf viewer](https://www.hackerrank.com/challenges/designer-pdf-viewer/problem)
+### [Designer PDF Viewer](https://www.hackerrank.com/challenges/designer-pdf-viewer/problem)
 
 ## Explanation:
 This code is a Java program that calculates the area of a highlighted selection in a PDF viewer given the heights of each letter and the string to be highlighted. Here's how it works:
