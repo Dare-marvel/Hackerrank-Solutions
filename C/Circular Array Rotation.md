@@ -1,8 +1,69 @@
 ### [Circular Array Rotation](https://www.hackerrank.com/challenges/circular-array-rotation/problem?h_r=profile)
 
-## Code:
+## Optimal Solution : Running all test-cases
 
-#### Brute Force : Time Consuming approach ( Giving Time limit exceeded error )
+<hr>
+
+## Explanation
+
+## Time and Space Complexity:
+### `Time Complexity`:
+
+### `Space Complexity`:
+
+
+## Code:
+```c
+#include <stdio.h>
+
+int main()
+{
+    int n, k, qn; // Variables for the number of elements, rotation count, and number of queries
+    
+    scanf("%d", &n); // Inputting the number of elements
+  
+    int num[n]; // Array to store the elements
+    
+    scanf("%d", &k); // Inputting the rotation count
+    
+    scanf("%d", &qn); // Inputting the number of queries
+  
+    int q[qn]; // Array to store the queries
+    
+    for (int i = 0; i < n; i++)
+    {
+        scanf("%d", &num[i]); // Inputting the elements of the array
+    }
+  
+    for (int i = 0; i < qn; i++)
+    {
+        scanf("%d", &q[i]); // Inputting the queries
+    }
+    for (int i = 0; i < qn; i++)
+    {
+        if (q[i] - k % n >= 0)
+        {
+            printf("%d\n", num[q[i] - (k % n)]); // Printing the elements after rotation
+        }
+        else
+            printf("%d\n", num[q[i] - (k % n) + n]); // Printing the elements after rotation, considering wrap-around
+    }
+    return 0;
+}
+```
+
+<hr>
+
+## Brute Force : Time Consuming approach ( Giving Time limit exceeded error )
+
+## Explanation
+
+## Time and Space Complexity:
+### `Time Complexity`:
+
+### `Space Complexity`:
+
+## Code:
 ```c
 #include <stdio.h>
 
@@ -45,42 +106,4 @@ int main()
 ```
 ---------------------------------------------------------------------------------------------------------------------------------------
 
-#### Optimal Solution : Running all test-cases
-```c
-#include <stdio.h>
 
-int main()
-{
-    int n, k, qn; // Variables for the number of elements, rotation count, and number of queries
-    
-    scanf("%d", &n); // Inputting the number of elements
-  
-    int num[n]; // Array to store the elements
-    
-    scanf("%d", &k); // Inputting the rotation count
-    
-    scanf("%d", &qn); // Inputting the number of queries
-  
-    int q[qn]; // Array to store the queries
-    
-    for (int i = 0; i < n; i++)
-    {
-        scanf("%d", &num[i]); // Inputting the elements of the array
-    }
-  
-    for (int i = 0; i < qn; i++)
-    {
-        scanf("%d", &q[i]); // Inputting the queries
-    }
-    for (int i = 0; i < qn; i++)
-    {
-        if (q[i] - k % n >= 0)
-        {
-            printf("%d\n", num[q[i] - (k % n)]); // Printing the elements after rotation
-        }
-        else
-            printf("%d\n", num[q[i] - (k % n) + n]); // Printing the elements after rotation, considering wrap-around
-    }
-    return 0;
-}
-```
