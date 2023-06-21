@@ -37,12 +37,14 @@ The space complexity is O(n) because it uses three arrays of size n to store its
 
 void record(int n, int sc[])
 {
-    int *min = malloc(n * sizeof(int));
-    int *max = malloc(n * sizeof(int));
+    int *min = malloc(n * sizeof(int)); // Dynamic memory allocation for 'min' array
+    int *max = malloc(n * sizeof(int)); // Dynamic memory allocation for 'max' array
     int i, j;
     int c1 = 0, c2 = 0;
-    min[0] = sc[0];
-    max[0] = sc[0];
+    min[0] = sc[0]; // Initializing the first element of 'min' array with the first score element
+    max[0] = sc[0]; // Initializing the first element of 'max' array with the first score element
+    
+    // Loop to calculate minimum and maximum scores
     for (i = 1; i < n; i++)
     {
         if (sc[i] < min[i-1])
@@ -62,6 +64,8 @@ void record(int n, int sc[])
             max[i] = max[i-1];
         }
     }
+    
+    // Loop to count the number of increasing sequences in 'min' array
     for (j = 0; j < n - 1; j++)
     {
         if (min[j] > min[j + 1])
@@ -69,6 +73,8 @@ void record(int n, int sc[])
             c1++;
         }
     }
+    
+    // Loop to count the number of increasing sequences in 'max' array
     for (int h = 0; h < n - 1; h++)
     {
         if (max[h + 1] > max[h])
@@ -80,22 +86,27 @@ void record(int n, int sc[])
             continue;
         }
     }
-    printf("%d %d", c2, c1);
-    free(min);
-    free(max);
+    
+    printf("%d %d", c2, c1); // Printing the count of increasing sequences in 'max' and 'min' arrays
+    free(min); // Freeing the dynamically allocated memory for 'min' array
+    free(max); // Freeing the dynamically allocated memory for 'max' array
 }
 
 int main()
 {
     int n;
-    scanf("%d", &n);
-    int *sc = malloc(n * sizeof(int));
+    scanf("%d", &n); // Reading the value of 'n' from the user
+    int *sc = malloc(n * sizeof(int)); // Dynamic memory allocation for 'sc' array
+    
+    // Loop to read the scores from the user and store them in 'sc' array
     for(int i = 0; i < n; i++)
     {
         scanf("%d", &sc[i]);
     }
-    record(n, sc);
-    free(sc);
+    
+    record(n, sc); // Calling the 'record' function to process the scores
+    free(sc); // Freeing the dynamically allocated memory for 'sc' array
     return 0;
 }
+
 ```
