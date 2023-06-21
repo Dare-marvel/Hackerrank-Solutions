@@ -1,4 +1,4 @@
-### [Equalize The Array](https://www.hackerrank.com/challenges/equality-in-a-array/problem?h_r=profile)
+### [Equalize the Array](https://www.hackerrank.com/challenges/equality-in-a-array/problem?h_r=profile)
 
 ## Explnation:
 The main logic of this C program can be summarized in the following points:
