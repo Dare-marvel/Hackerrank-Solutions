@@ -1,4 +1,4 @@
-### [Modi Kaprekar Numbers](https://www.hackerrank.com/challenges/kaprekar-numbers/problem)
+### [Modified Kaprekar Numbers](https://www.hackerrank.com/challenges/kaprekar-numbers/problem)
 
 ## Explanation:
 This code is a Java program that finds and prints all the Modified Kaprekar Numbers in a given range. Here's how it works:
