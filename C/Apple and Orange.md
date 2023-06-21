@@ -8,17 +8,17 @@
 int main()
 {
     int s, a, b, m, n, t;
-    // printf("Enter the values of s and t:\n");
+   
     scanf("%d %d", &s, &t);
-    // printf("Enter the values of a and b:\n");
+   
     scanf("%d %d", &a, &b);
-    // printf("Enter the values of m and n:\n");
+   
     scanf("%d %d", &m, &n);
     int app[m], ora[n], as = 0, os = 0;
-    // printf("Enter the distances of apple's from tree:\n");
+    
     for (int i = 0; i < m; i++)
         scanf("%d", &app[i]);
-    // printf("Enter the distances of orange's from tree:\n");
+   
     for (int j = 0; j < n; j++)
         scanf("%d", &ora[j]);
     for (int k = 0; k < m; k++)
