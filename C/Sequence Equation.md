@@ -58,6 +58,8 @@ int main()
 
 ## Method - 2
 
+<hr>
+
 ## Explanation: 
 The main logic of this C program can be summarized in the following points:
 1. The program takes in an integer input `n` representing the number of elements in an array.
