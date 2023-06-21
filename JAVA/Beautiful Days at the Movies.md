@@ -1,4 +1,4 @@
-### [Beautiful days at the movies](https://www.hackerrank.com/challenges/beautiful-days-at-the-movies/problem)
+### [Beautiful Days at the Movies](https://www.hackerrank.com/challenges/beautiful-days-at-the-movies/problem)
 
 ## Explanation:
 This code is a Java program that calculates the number of beautiful days in a given range of days. Here's how it works:
