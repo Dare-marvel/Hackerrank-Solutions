@@ -9,6 +9,7 @@
 <img src="https://img.shields.io/github/license/Dare-marvel/Hackerrank-Solutions" alt="License" />
 
 </p>
+<hr>
 
 ## Problem Solving:
 
