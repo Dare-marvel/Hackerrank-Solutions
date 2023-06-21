@@ -6,6 +6,13 @@ s + st - 2: This calculates the index of the last candy if we start counting fro
 This will give the remaining candies that are not distributed among the full rounds of candy distribution.<br>
 1: Add 1 to the above result to get the prisoner number who receives the last candy.<br>
 
+## Time and Space Complexity:
+### `Time Complexity`:
+The time complexity of this code is O(t) because it uses a while loop that iterates `t` times, where `t` is the number of test cases.
+
+### `Space Complexity`:
+The space complexity is O(1) because the program uses a constant amount of memory to store the variables `t`, `p`, `s`, and `st`.
+
 ## Code :
 ```c
 #include <stdio.h>
