@@ -1,0 +1,68 @@
+### [Java Generics](https://www.hackerrank.com/challenges/java-generics/problem?isFullScreen=true)
+
+## Explanation:
+This code defines a `Printer` class with a type parameter `T` and a `printArray` method that takes an array of elements of type `T` as an argument and prints each element to the console. The `main` function creates a new `Printer` object, calls its `printArray` method with integer and string arrays as arguments, and checks if there is more than one `printArray` method in the `Printer` class using reflection. If there is more than one such method, it logs an error message to the console.
+
+The main logic of this code can be summarized in the following points:
+
+1. The `Printer` class is defined with a type parameter `T`. This allows it to be used with any type of data.
+2. The `printArray` method is defined to take an array of elements of type `T` as an argument. It iterates over each element in the array and prints it to the console using the `System.out.println()` method.
+3. The `main` function creates a new `Printer` object and two arrays, one of integers and one of strings. It calls the `printArray` method on the `Printer` object with each of these arrays as arguments.
+4. The `main` function then uses reflection to iterate over each method in the `Printer` class and count how many are named `printArray`. If there is more than one such method, it logs an error message to the console.
+
+## Time and Space Complexity:
+### `Time Complexity`:
+The time complexity of this code is O(n), where n is the length of the longest array passed to the `printArray` method, because it needs to iterate over each element in that array once to print it.
+
+### `Space Complexity`:
+The space complexity of this code is O(1) because it uses only constant extra space regardless of input size.
+
+## Code:
+```java
+import java.io.IOException;
+import java.lang.reflect.Method;
+
+// Define a Printer class with a type parameter T
+class Printer<T>
+{
+   // Method to print an array of elements of type T
+   public void printArray(T [] Array){
+       // Iterate over each element in the array
+       for(int i=0;i<Array.length;i++){
+           // Print the element to the console
+           System.out.println(Array[i]);
+       }
+   }
+}
+
+public class Solution {
+    public static void main( String args[] ) {
+        // Create a new Printer object
+        Printer myPrinter = new Printer();
+        // Create an array of integers
+        Integer[] intArray = { 1, 2, 3 };
+        // Create an array of strings
+        String[] stringArray = {"Hello", "World"};
+        // Call the printArray method on the Printer object with the integer array as an argument
+        myPrinter.printArray(intArray);
+        // Call the printArray method on the Printer object with the string array as an argument
+        myPrinter.printArray(stringArray);
+        // Variable to count the number of printArray methods in the Printer class
+        int count = 0;
+
+        // Iterate over each method in the Printer class
+        for (Method method : Printer.class.getDeclaredMethods()) {
+            // Get the name of the method
+            String name = method.getName();
+
+            // If the method is named printArray, increment the count variable
+            if(name.equals("printArray"))
+                count++;
+        }
+
+        // If there is more than one printArray method in the Printer class, log an error message to the console
+        if(count > 1)System.out.println("Method overloading is not allowed!");
+    }
+}
+
+```
