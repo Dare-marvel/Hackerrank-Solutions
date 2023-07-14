@@ -1,4 +1,4 @@
-### [LinkToProblem]()
+### [Pascal's Triangle](https://www.hackerrank.com/challenges/pascals-triangle/problem?isFullScreen=true)
 
 ## Brief Description:
 
