@@ -10,5 +10,8 @@ select distinct city from station where right(city,1) in ('a','e','i','o','u');
 
 ### Method-2
 ```mysql
-
+SELECT DISTINCT 
+CITY 
+FROM STATION 
+WHERE lower(substr(CITY,length(CITY),1)) in ('a','e','i','o','u') ;
 ```
