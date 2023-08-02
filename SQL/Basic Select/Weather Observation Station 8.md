@@ -12,5 +12,5 @@ SELECT DISTINCT CITY FROM STATION WHERE
 
 ### Method-2
 ```mysql
-
+select distinct city from station where left(city,1) in ('a','e','i','o','u') and right(city,1) in ('a','e','i','o','u');
 ```
